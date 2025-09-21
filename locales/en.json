@@ -1,0 +1,62 @@
+{
+  "appName": "Princess Coffee",
+  "tagline": "Taste the royal flavor in every sip",
+  "socials": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "whatsapp": "WhatsApp"
+  },
+  "viewMenuButton": "View Our Menu",
+  "copyright": "© 2025 Princess Coffee.",
+  "menuTitle": "Our Menu",
+  "menuCategories": {
+    "cold": "Cold",
+    "hot": "Hot"
+  },
+  "menu": {
+    "iced_coffee": {
+      "name": "Iced Coffee",
+      "description": "Refreshing coffee served with ice, perfect for a hot day."
+    },
+    "cappuccino_latte": {
+      "name": "Cappuccino Latte",
+      "description": "A creamy blend of iced cappuccino and latte."
+    },
+    "princess_coffee": {
+      "name": "Princess Coffee",
+      "description": "Our special and unique recipe, an unforgettable royal experience."
+    },
+    "plain_coffee": {
+      "name": "Plain Coffee",
+      "description": "Authentic Arabic coffee with a strong, unsweetened flavor."
+    },
+    "medium_coffee": {
+      "name": "Medium Coffee",
+      "description": "Balanced coffee with a light sweetness."
+    },
+    "chocolate_coffee": {
+      "name": "Chocolate Coffee",
+      "description": "A rich blend of coffee and melted chocolate."
+    },
+    "galaxy_coffee": {
+      "name": "Galaxy Coffee",
+      "description": "Coffee infused with the smooth taste of Galaxy chocolate."
+    },
+    "bounty_coffee": {
+      "name": "Bounty Coffee",
+      "description": "An exotic taste combining coffee and coconut."
+    },
+    "honey_coffee": {
+      "name": "Honey Coffee",
+      "description": "Coffee sweetened with natural honey for a warm flavor."
+    },
+    "sky_coffee": {
+      "name": "Coffee from the Sky",
+      "description": "A creative and secret blend that takes you to another world."
+    },
+    "karak_chai": {
+      "name": "Karak Chai",
+      "description": "Milk tea enriched with aromatic spices."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appName": "قهوة الأميرة",
+  "tagline": "تذوق المذاق الملكي في كل رشفة",
+  "socials": {
+    "instagram": "انستغرام",
+    "tiktok": "تيك توك",
+    "whatsapp": "واتساب"
+  },
+  "viewMenuButton": "عرض قائمتنا",
+  "copyright": "© 2025 قهوة الأميرة.",
+  "menuTitle": "قائمتنا",
+  "menuCategories": {
+    "cold": "بارد",
+    "hot": "حار"
+  },
+  "menu": {
+    "iced_coffee": {
+      "name": "آيس كوفي",
+      "description": "قهوة منعشة تقدم مع الثلج، مثالية ليوم حار."
+    },
+    "cappuccino_latte": {
+      "name": "كابتشينو لاتيه",
+      "description": "مزيج كريمي من الكابتشينو واللاتيه البارد."
+    },
+    "princess_coffee": {
+      "name": "قهوة الأميرة",
+      "description": "وصفتنا الخاصة والفريدة، تجربة ملكية لا تنسى."
+    },
+    "plain_coffee": {
+      "name": "قهوة سادة",
+      "description": "قهوة عربية أصيلة بنكهة قوية وغير محلاة."
+    },
+    "medium_coffee": {
+      "name": "قهوة وسط",
+      "description": "قهوة متوازنة مع حلاوة خفيفة."
+    },
+    "chocolate_coffee": {
+      "name": "قهوة جكليتية",
+      "description": "مزيج غني من القهوة والشوكولاتة الذائبة."
+    },
+    "galaxy_coffee": {
+      "name": "قهوة كالكسي",
+      "description": "قهوة بنكهة شوكولاتة كالكسي الناعمة."
+    },
+    "bounty_coffee": {
+      "name": "قهوة باونتي",
+      "description": "مذاق استوائي يجمع بين القهوة وجوز الهند."
+    },
+    "honey_coffee": {
+      "name": "قهوة عسلية",
+      "description": "قهوة محلاة بالعسل الطبيعي لنكهة دافئة."
+    },
+    "sky_coffee": {
+      "name": "قهوة من السما",
+      "description": "مزيج إبداعي وسري يأخذك إلى عالم آخر."
+    },
+    "karak_chai": {
+      "name": "چاي كرك",
+      "description": "شاي بالحليب غني بالبهارات العطرية."
+    }
+  }
+}
