@@ -4,7 +4,7 @@ import React from 'react';
 export interface SocialLink {
     name: string;
     href: string;
-    icon: React.ReactNode;
+    icon: string | React.ReactNode;
 }
 
 export interface MenuItem {
@@ -22,7 +22,7 @@ export interface MenuCategory {
 export interface SocialLinkData {
     id: 'instagram' | 'tiktok' | 'whatsapp';
     href: string;
-    icon: React.ReactNode;
+    icon: string | React.ReactNode;
 }
 
 export interface MenuItemData {

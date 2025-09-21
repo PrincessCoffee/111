@@ -13,10 +13,15 @@ const SocialLinkButton: React.FC<SocialLinkButtonProps> = ({ href, icon, text })
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="group w-full bg-transparent border-2 border-brand-gold text-brand-gold font-bold py-3 px-6 rounded-lg flex items-center justify-center gap-3 transition-all duration-300 ease-in-out hover:bg-brand-gold/20 hover:shadow-lg transform hover:scale-105"
+            className="group w-full bg-transparent border-2 border-yellow-400 text-yellow-400 font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-3 transition-all duration-300 ease-in-out hover:bg-yellow-400/10 hover:border-yellow-300 hover:text-yellow-300 hover:shadow-lg transform hover:scale-105"
+            style={{
+                borderColor: '#facc15',
+                color: '#facc15',
+                boxShadow: '0 2px 10px rgba(250, 204, 21, 0.1)'
+            }}
         >
-            {icon}
-            <span>{text}</span>
+            <span className="text-xl">{icon}</span>
+            <span className="text-lg">{text}</span>
         </a>
     );
 };

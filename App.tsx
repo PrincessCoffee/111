@@ -79,13 +79,16 @@ const App: React.FC = () => {
     }));
 
     return (
-        <div className="min-h-screen flex items-center justify-center p-4 overflow-hidden font-tajawal">
-            <div className="w-full max-w-sm mx-auto text-center relative z-10 bg-brand-green border-2 border-brand-gold rounded-3xl p-8 shadow-2xl">
+        <div className="font-tajawal">
+            <div className="w-full max-w-sm mx-auto text-center relative bg-gradient-to-br from-teal-700 via-teal-600 to-teal-700 border-4 border-yellow-500 rounded-3xl p-8 shadow-2xl" style={{
+                background: 'linear-gradient(135deg, #2d5552 0%, #3a6b67 50%, #2d5552 100%)',
+                boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
+            }}>
                 
                 <div className="absolute top-4 right-4 z-20">
                     <button
                         onClick={toggleLanguage}
-                        className="text-brand-gold font-bold py-1 px-3 rounded-md border border-brand-gold hover:bg-brand-gold/20 transition-colors text-sm"
+                        className="text-yellow-400 font-bold py-1 px-3 rounded-md border border-yellow-400 hover:bg-yellow-400/20 transition-colors text-sm"
                         aria-label="Toggle language"
                     >
                         {language === 'ar' ? 'EN' : 'AR'}
@@ -93,18 +96,26 @@ const App: React.FC = () => {
                 </div>
                 
                 <header className="mb-8">
-                    <img 
-                        src="https://i.imgur.com/k2gY1rC.png" 
-                        alt={t.appName} 
-                        className="w-40 h-40 mx-auto object-cover"
-                    />
-                    <h1 className="text-5xl font-extrabold mt-6 text-white">
+                    <div className="relative mb-6">
+                        <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-yellow-300 to-yellow-500 p-1 shadow-2xl">
+                            <div className="w-full h-full rounded-full bg-white p-1">
+                                <div className="w-full h-full rounded-full bg-gradient-to-br from-teal-600 to-teal-800 flex items-center justify-center relative overflow-hidden">
+                                    <img 
+                                        src="https://i.imgur.com/k2gY1rC.png" 
+                                        alt={t.appName} 
+                                        className="w-20 h-20 object-cover rounded-full"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 className="text-4xl font-extrabold text-white mb-3" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
                         {t.appName}
                     </h1>
-                    <p className="text-brand-gold text-lg mt-2 font-bold">{t.tagline}</p>
+                    <p className="text-yellow-400 text-lg font-bold" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.5)' }}>{t.tagline}</p>
                 </header>
 
-                <main className="space-y-4">
+                <main className="space-y-3 mb-8">
                     {socialLinks.map((link) => (
                         <SocialLinkButton 
                             key={link.id} 
@@ -116,14 +127,18 @@ const App: React.FC = () => {
                     
                     <button
                         onClick={() => setIsMenuOpen(true)}
-                        className="group w-full bg-brand-gold text-brand-green font-bold py-3 px-6 rounded-lg flex items-center justify-center gap-3 transition-all duration-300 ease-in-out hover:bg-yellow-500 hover:shadow-lg transform hover:scale-105"
+                        className="w-full bg-yellow-500 text-teal-800 font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-3 transition-all duration-300 ease-in-out hover:bg-yellow-400 hover:shadow-lg transform hover:scale-105 text-lg"
+                        style={{
+                            background: 'linear-gradient(135deg, #eab308 0%, #f59e0b 100%)',
+                            boxShadow: '0 4px 15px rgba(234, 179, 8, 0.3)'
+                        }}
                     >
                         <MenuIcon className="w-6 h-6" />
                         <span>{t.viewMenuButton}</span>
                     </button>
                 </main>
                 
-                <footer className="mt-12 text-center text-gray-200 text-sm">
+                <footer className="text-center text-teal-200 text-sm opacity-80">
                     <p>{t.copyright}</p>
                 </footer>
             </div>
